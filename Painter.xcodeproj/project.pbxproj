@@ -248,6 +248,7 @@
 		0147B158254EE2B0009C7E33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = marker;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 565GS4VPDB;
 				OTHER_LDFLAGS = "-ObjC";
@@ -261,6 +262,7 @@
 		0147B159254EE2B0009C7E33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 565GS4VPDB;
 				OTHER_LDFLAGS = "-ObjC";
