@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0147B154254EE2B0009C7E33 /* Painter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147B153254EE2B0009C7E33 /* Painter.swift */; };
+		0147B15B254EE395009C7E33 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0147B15A254EE395009C7E33 /* UIColor + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		0147B150254EE2B0009C7E33 /* libPainter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPainter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0147B153254EE2B0009C7E33 /* Painter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Painter.swift; sourceTree = "<group>"; };
+		0147B15A254EE395009C7E33 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				0147B153254EE2B0009C7E33 /* Painter.swift */,
+				0147B15A254EE395009C7E33 /* UIColor + Extension.swift */,
 			);
 			path = Painter;
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0147B154254EE2B0009C7E33 /* Painter.swift in Sources */,
+				0147B15B254EE395009C7E33 /* UIColor + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

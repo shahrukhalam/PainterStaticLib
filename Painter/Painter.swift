@@ -6,6 +6,10 @@
 //  Copyright © 2020 Shahrukh. All rights reserved.
 //
 
-class Painter {
+import UIKit
 
+public struct Painter {
+    public func paintRandomColor(onView view: UIView) {
+        view.backgroundColor = .random
+    }
 }
