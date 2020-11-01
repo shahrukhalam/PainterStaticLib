@@ -9,6 +9,8 @@
 import UIKit
 
 public struct Painter {
+    public init() {  }
+
     public func paintRandomColor(onView view: UIView) {
         view.backgroundColor = .random
     }
